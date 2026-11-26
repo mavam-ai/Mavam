@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#ffffff"><title>Welcome back · Mavam</title>
+<link rel="stylesheet" href="styles.css"><script defer src="app.js"></script>
+</head>
+<body>
+<main class="shell">
+  <aside class="art" aria-label="About Mavam">
+    <video id="film" muted autoplay loop playsinline preload="auto" poster="assets/login-poster.jpg" src="assets/login.mp4" aria-hidden="true"></video>
+    <img class="brand" alt="MAVAM" src="assets/mavam.svg" width="163" height="29">
+    <div class="artcopy"><h2>Your business,<br><em>in perspective</em></h2><p>Bring your financial data together and prepare<br> for your next business loan.</p></div>
+  </aside>
+  <section class="work" aria-label="Workspace access">
+    <ol id="steps" aria-label="Sign-in progress"><li>Email</li><li>Verify</li><li>Workspace</li></ol>
+    <div class="center"><div id="view" class="form"></div></div>
+    <button class="scenarios-link" id="scenarios">Demo scenarios</button>
+  </section>
+</main>
+<dialog id="dialog" aria-labelledby="dialogTitle"><div id="dialogBody"></div></dialog>
+<div hidden id="assetLib">
+<img data-icon="email" src="assets/email.svg" alt=""><img data-icon="passkey" src="assets/passkey.svg" alt=""><img data-icon="plus" src="assets/plus.svg" alt=""><img data-icon="open" src="assets/open.svg" alt=""><img data-icon="notice" src="assets/notice.svg" alt=""><img data-icon="back" src="assets/back.svg" alt=""><img data-icon="resend" src="assets/resend.svg" alt=""><img data-icon="spinner" src="assets/spinner.svg" alt="">
+</div>
+</body></html>
